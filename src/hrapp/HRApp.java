@@ -28,6 +28,7 @@ public class HRApp {
         dpt.addEmp(new Employee(68, "krish", 689545));
 
         Employee emp[] = dpt.getEmployee();
+        
         for (Employee x : emp) {
             System.out.println("Emp: " + x);
         }
