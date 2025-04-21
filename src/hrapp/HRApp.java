@@ -32,8 +32,10 @@ public class HRApp {
         for (Employee x : emp) {
             System.out.println("Emp: " + x);
         }
-        System.out.println("Total salary : " + dpt.getTotalSalary());
-        System.out.println("Average salary : " + dpt.getAvgSalary());
+        
+        System.out.println("Total Salary : " + dpt.getTotalSalary());
+        System.out.println("Average Salary : " + dpt.getAvgSalary());
+        
     }
 
 }
