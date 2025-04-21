@@ -41,10 +41,6 @@ public class Department {
         return actual;
     }
 
-    public int getEmpCount() {
-        return last_count + 1;
-    }
-
     public Employee getEmpByID(int empID) {
         for (Employee x : emp) {
             if (x != null) {
@@ -54,6 +50,10 @@ public class Department {
             }
         }
         return null;
+    }
+
+    public int getEmpCount() {
+        return last_count + 1;
     }
 
     public double getTotalSalary() {
@@ -71,7 +71,6 @@ public class Department {
         return 0.0;
     }
 
-    
     public String toString() {
         return name;
     }

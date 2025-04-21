@@ -13,7 +13,6 @@ public class Employee {
     private int ID;
     private String name;
     private double salary;
-   
 
     public Employee(int ID, String name, double salary) {
         this.ID = ID;
